@@ -216,5 +216,19 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
+         
+         
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-20-161-releases</name>
+        <url>http://34.212.82.22:8081/artifactory/mavenrepo</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-20-161-snapshots</name>
+        <url>http://34.212.82.22:8081/artifactory/mavenrepo</url>
+    </snapshotRepository>
+</distributionManagement>
 
 </project>
